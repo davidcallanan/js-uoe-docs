@@ -1,0 +1,3 @@
+[submodule "uoe"]
+	path = uoe
+	url = https://github.com/davidcallanan/js-uoe

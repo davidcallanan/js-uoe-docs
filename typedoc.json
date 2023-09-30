@@ -1,0 +1,7 @@
+{
+	"entryPoints": ["uoe/**/*.js", "uoe/**/*.ts"],
+	"out": "docs",
+	"searchGroupBoosts": {
+		"Functions": 2
+	}
+}

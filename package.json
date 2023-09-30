@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "typedoc --name uoe"
+  },
+  "devDependencies": {
+    "typedoc": "^0.25.1"
+  }
+}
