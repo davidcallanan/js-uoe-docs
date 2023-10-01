@@ -23,6 +23,7 @@
 <div class="tsd-comment tsd-typography"><p>Wraps an api or promise to an api such that the api is immediately available. Properties and methods, including sub-properties of the api and sub-properties of the return-values of methods, are proxied to be immediately accessible before the api has neccesserily been resolved, and before parent properties and return-values of parent methods have been resolved. However, this means that the properties and methods are forced to be async.</p>
 <p>Upon access of a property or invocation of the wrapped api, it will first wait for the underlying api to be resolved before proceeding.</p>
 <p>If errors are reported by the passed-in promise, these errors will instead be delivered as internal errors inside any promises obtained from the wrapped api.</p>
+<p>An almost drop-in replacement for a promise.</p>
 <p>Warning: The <code>then</code>, <code>catch</code> and <code>finally</code> properties must not be defined on the underlying api as this makes the underlying api promise-like, while also conflicting with our implementation of the promise interface at every level.
 Doing this will cause bizarre behaviour which may be difficult to track down.</p>
 </div>
@@ -42,7 +43,7 @@ Doing this will cause bizarre behaviour which may be difficult to track down.</p
 </code><button>Copy</button></pre>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/davidcallanan/js-uoe/blob/c0d12d6/unsuspended_api.js#L61">unsuspended_api.js:61</a></li></ul></aside></li></ul></section></div>
+<li>Defined in <a href="https://github.com/davidcallanan/js-uoe/blob/d5a9b03/unsuspended_api.js#L63">unsuspended_api.js:63</a></li></ul></aside></li></ul></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">

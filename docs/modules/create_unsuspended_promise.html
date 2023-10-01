@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>switch_enum | uoe</title><meta name="description" content="Documentation for uoe"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>create_unsuspended_promise | uoe</title><meta name="description" content="Documentation for uoe"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -13,30 +13,17 @@
 <div class="tsd-page-title">
 <ul class="tsd-breadcrumb">
 <li><a href="../index.html">uoe</a></li>
-<li><a href="../modules/switch_enum.html">switch_enum</a></li>
-<li><a href="switch_enum.switch_enum.html">switch_enum</a></li></ul>
-<h1>Function switch_enum</h1></div>
-<section class="tsd-panel">
-<ul class="tsd-signatures">
-<li class="tsd-signature tsd-anchor-link" id="switch_enum"><span class="tsd-kind-call-signature">switch_<wbr/>enum</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">object</span>, <span class="tsd-kind-parameter">cases</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><a href="#switch_enum" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
-<li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Switches over a uoe-enum instance using the provided cases.</p>
-<p>Must be exhaustive, an error is thrown if an unspecified case is encountered.</p>
-</div>
-<div class="tsd-parameters">
-<h4 class="tsd-parameters-title">Parameters</h4>
-<ul class="tsd-parameter-list">
-<li>
-<h5><span class="tsd-kind-parameter">object</span>: <span class="tsd-signature-type">any</span></h5></li>
-<li>
-<h5><span class="tsd-kind-parameter">cases</span>: <span class="tsd-signature-type">any</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
-<div class="tsd-comment tsd-typography">
-<h4>Example</h4><pre><code class="language-ts"><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-6">state</span><span class="hl-1"> = </span><span class="hl-3">enm</span><span class="hl-1">.</span><span class="hl-2">partially_eligible</span><span class="hl-1">({ </span><span class="hl-3">reason:</span><span class="hl-1"> </span><span class="hl-4">&quot;too young&quot;</span><span class="hl-1"> });</span><br/><br/><span class="hl-3">console</span><span class="hl-1">.</span><span class="hl-2">log</span><span class="hl-1">(</span><span class="hl-2">switch_enum</span><span class="hl-1">(</span><span class="hl-3">state</span><span class="hl-1">, {</span><br/><span class="hl-1">  </span><span class="hl-2">eligible</span><span class="hl-3">:</span><span class="hl-1"> () </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-4">&quot;awesome&quot;</span><span class="hl-1">,</span><br/><span class="hl-1">  </span><span class="hl-2">partially_eligible</span><span class="hl-3">:</span><span class="hl-1"> (</span><span class="hl-3">info</span><span class="hl-1">) </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-4">`decent but </span><span class="hl-0">${</span><span class="hl-3">info</span><span class="hl-8">.</span><span class="hl-3">reason</span><span class="hl-0">}</span><span class="hl-4">`</span><span class="hl-1">,</span><br/><span class="hl-1">  </span><span class="hl-2">ineligible</span><span class="hl-3">:</span><span class="hl-1"> () </span><span class="hl-0">=&gt;</span><span class="hl-1"> </span><span class="hl-4">&quot;unfortunate&quot;</span><span class="hl-1">,</span><br/><span class="hl-1">}));</span>
-</code><button>Copy</button></pre>
-</div><aside class="tsd-sources">
+<li><a href="create_unsuspended_promise.html">create_unsuspended_promise</a></li></ul>
+<h1>Module create_unsuspended_promise</h1></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/davidcallanan/js-uoe/blob/d5a9b03/switch_enum.js#L16">switch_enum.js:16</a></li></ul></aside></li></ul></section></div>
+<li>Defined in <a href="https://github.com/davidcallanan/js-uoe/blob/d5a9b03/create_unsuspended_promise.js#L1">create_unsuspended_promise.js:1</a></li></ul></aside>
+<section class="tsd-panel-group tsd-index-group">
+<section class="tsd-panel tsd-index-panel">
+<h3 class="tsd-index-heading uppercase">Index</h3>
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading">Functions</h3>
+<div class="tsd-index-list"><a href="../functions/create_unsuspended_promise.create_unsuspended_promise.html" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-64"></use></svg><span>create_<wbr/>unsuspended_<wbr/>promise</span></a>
+</div></section></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -55,27 +42,27 @@
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1"></use></svg><span>uoe</span></a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base="..">
-<li><a href="../modules/array_async_from.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>array_async_from</a></li>
-<li><a href="../modules/as_async.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>as_async</a></li>
-<li><a href="../modules/bind_callable.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>bind_callable</a></li>
-<li><a href="../modules/bind_self.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>bind_self</a></li>
-<li><a href="../modules/build_obj.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>build_obj</a></li>
-<li><a href="../modules/build_obj_mut.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>build_obj_mut</a></li>
-<li><a href="../modules/cached_async_iterable.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>cached_async_iterable</a></li>
-<li><a href="../modules/call_as_async.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>call_as_async</a></li>
-<li><a href="../modules/callable.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>callable</a></li>
-<li><a href="../modules/callable_bound.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>callable_bound</a></li>
-<li><a href="../modules/collect.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>collect</a></li>
-<li><a href="../modules/collect_async.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>collect_async</a></li>
-<li><a href="../modules/create_async_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_async_factory</a></li>
-<li><a href="../modules/create_discarding_pub_sub.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_discarding_pub_sub</a></li>
-<li><a href="../modules/create_func_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_func_factory</a></li>
-<li><a href="../modules/create_lock.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_lock</a></li>
-<li><a href="../modules/create_map_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_map_factory</a></li>
-<li><a href="../modules/create_promise.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_promise</a></li>
-<li><a href="../modules/create_promise_queue.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_promise_queue</a></li>
-<li><a href="../modules/create_safe_api.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_safe_api</a></li>
-<li><a href="../modules/create_service_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_service_factory</a></li>
+<li><a href="array_async_from.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>array_async_from</a></li>
+<li><a href="as_async.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>as_async</a></li>
+<li><a href="bind_callable.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>bind_callable</a></li>
+<li><a href="bind_self.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>bind_self</a></li>
+<li><a href="build_obj.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>build_obj</a></li>
+<li><a href="build_obj_mut.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>build_obj_mut</a></li>
+<li><a href="cached_async_iterable.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>cached_async_iterable</a></li>
+<li><a href="call_as_async.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>call_as_async</a></li>
+<li><a href="callable.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>callable</a></li>
+<li><a href="callable_bound.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>callable_bound</a></li>
+<li><a href="collect.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>collect</a></li>
+<li><a href="collect_async.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>collect_async</a></li>
+<li><a href="create_async_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_async_factory</a></li>
+<li><a href="create_discarding_pub_sub.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_discarding_pub_sub</a></li>
+<li><a href="create_func_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_func_factory</a></li>
+<li><a href="create_lock.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_lock</a></li>
+<li><a href="create_map_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_map_factory</a></li>
+<li><a href="create_promise.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_promise</a></li>
+<li><a href="create_promise_queue.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_promise_queue</a></li>
+<li><a href="create_safe_api.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_safe_api</a></li>
+<li><a href="create_service_factory.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2"></use></svg>create_service_factory</a></li>
 <li>Loading...</li></ul></nav></div></div></div>
 <div class="tsd-generator">
 <p>Generated using <a href="https://typedoc.org/" rel="noopener" target="_blank">TypeDoc</a></p></div>
